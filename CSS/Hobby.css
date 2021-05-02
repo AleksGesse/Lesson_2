@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    background-color: rgb(40, 20, 41);
+    padding: 5px 0;
+    font-size: 0;
+}
+
+.navigation-link {
+    text-align: center;
+    background-color: rgb(56, 37, 61);
+    color: rosybrown;
+    display: inline-block;
+    width: 33.33%;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 0;
+    border:1px solid rosybrown;
+    border-radius: 5px;
+}
+
+.header-content {
+        background-color: rgb(126, 96, 134);
+        padding: 30px;
+        text-align: center;
+        font-size: x-large;
+}
+
+main {
+    font-size: 0;
+
+}
+
+.main-content {
+    text-align: center;
+    background-color: rgb(56, 37, 61);
+    color: rgb(235, 235, 209);
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    padding: 30px 30px;
+    padding-top: 50px;
+    height: 270px;
+    overflow:scroll;
+}
+
+a:visited {
+    color:rgb(218, 202, 202);
+}
+
+a:hover {
+    color: olive;
+    text-decoration: underline;
+    
+}
+
+a:link {
+    color: rgb(235, 235, 209);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(235, 235, 209);
+    text-decoration: none;
+}
+
+.read-more-link {
+    text-align: center;
+    background-color: rgb(81, 54, 88);
+    color: rgb(235, 235, 209);
+    display: inline-block;
+    width: 33.33%;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    }
+.footer-info {
+    background-color:  rgb(126, 96, 134);
+    text-align: center;
+    border: 70px solid rgb(126, 96, 134);
+    
+}
+h2 {
+    margin: 5px;
+}
